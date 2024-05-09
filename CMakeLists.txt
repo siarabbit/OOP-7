@@ -6,4 +6,5 @@ set(CMAKE_CXX_STANDARD 17)
 add_executable(OOP7 main.cpp
         SingleNode.h
         SingleLinkedList.h
-        DobleNode.h)
+        DoubleNode.h
+        DoubleLinkedList.h)

@@ -1,5 +1,6 @@
 #include <iostream>
 #include "SingleLinkedList.h"
+#include "DoubleLinkedList.h"
 using namespace std;
 int main() {
     SingleLinkedList<int> list;
@@ -12,6 +13,8 @@ int main() {
     list.atRemove(1);
     list.show();
     cout<<"Found: "<<list.search(1)<<endl;
+    DoubleLinkedList<int> list2;
 
+    cout<<list2.isEmpty()<<endl;
     return 0;
 }
